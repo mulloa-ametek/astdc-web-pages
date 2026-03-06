@@ -2,7 +2,6 @@
 import cgi
 import cgitb
 import os
-import sys
 from datetime import datetime
 
 cgitb.enable()
@@ -12,7 +11,7 @@ FIELD_NAME = "fw_file"
 
 
 def respond(status_code, message):
-    print(f"Status: {status_code}")
+    print("Status: {}".format(status_code))
     print("Content-Type: text/plain")
     print("Cache-Control: no-store")
     print()
@@ -51,7 +50,7 @@ def main():
     os.makedirs(UPLOAD_DIR, exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    dest_path = os.path.join(UPLOAD_DIR, f"{timestamp}_{filename}")
+    dest_path = os.path.join(UPLOAD_DIR, "{}_{}".format(timestamp, filename))
 
     total = 0
     with open(dest_path, "wb") as out_file:
@@ -62,11 +61,11 @@ def main():
             out_file.write(chunk)
             total += len(chunk)
 
-    respond("200 OK", f"Saved {total} bytes to {dest_path}")
+    respond("200 OK", "Saved {} bytes to {}".format(total, dest_path))
 
 
 if __name__ == "__main__":
     try:
         main()
     except Exception as exc:
-        respond("500 Internal Server Error", f"Upload failed: {exc}")
+        respond("500 Internal Server Error", "Upload failed: {}".format(exc))

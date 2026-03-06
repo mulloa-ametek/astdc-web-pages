@@ -41,7 +41,7 @@
             <label for="fw_file">Select firmware file:</label><br/>
             <input type="file" id="fw_file" name="fw_file" accept=".uImage,application/octet-stream"/><br/><br/>
 
-            <button id="upload_btn" type="button">Upload</button>
+            <button id="upload_button" type="button">Upload</button>
 
             <div id="status" class="status"></div>
             <div id="progress_bar_container">
