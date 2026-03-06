@@ -304,6 +304,7 @@ static void serve_upload_page(void)
     //        "<pre id='debug_log' style='margin-top:1rem;height:180px;overflow:auto;background:#111;color:#0f0;padding:8px;'></pre>"
     //        "<script src='/update.js?v=1'></script>"
     //        "</body></html>");
+    printf("Content-Type: text/plain\r\n\r\n");
 	printf("Done");
 }
 
