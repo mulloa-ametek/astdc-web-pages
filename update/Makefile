@@ -1,33 +1,13 @@
-#######################################################################################
-# Title:          Makefile (native GCC on Ubuntu)
-# Description:    Build update.cgi against ../cgi-lib on the host (no cross-compile)
-#######################################################################################
+CC ?= gcc
+CFLAGS ?= -O2 -Wall
 
-# Compiler & Linker
-CC      = gcc
-LD      = gcc
+all: upload.cgi
 
-# Directories
-CGI_DIR = ../cgi-lib
+upload.cgi: upload.o
+	$(CC) $(CFLAGS) -o $@ upload.o
 
-# Flags
-CFLAGS  = -std=c11 -Wall -Wextra -O2 -I$(CGI_DIR)
-LDFLAGS =
-LIBS    = -L$(CGI_DIR) -lcgi
-
-# Targets
-TARGET  = update.cgi
-OBJS    = update.o
-
-.PHONY: all clean
-
-all: $(TARGET)
-
-$(TARGET): $(OBJS) $(CGI_DIR)/libcgi.a
-	$(LD) $(LDFLAGS) $(OBJS) -o $(TARGET) $(LIBS)
-
-update.o: update.c $(CGI_DIR)/cgi-lib.h
-	$(CC) $(CFLAGS) -c update.c -o update.o
+upload.o: upload.c
+	$(CC) $(CFLAGS) -c upload.c
 
 clean:
-	rm -f $(TARGET) update.o update.cgi.gdb
+	rm -f upload.o upload.cgi
