@@ -86,8 +86,6 @@
           page: window.location.href
       });
 
-      // var url = "/cgi-bin/upload.cgi";
-      // var url = "/cgi-bin/upload.py";
       var url = "/cgi-bin/cgi_update.cgi";
       var t0 = Date.now();
 
