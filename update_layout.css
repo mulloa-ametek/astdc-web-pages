@@ -1,0 +1,27 @@
+/* update_layout.css */
+.update_card {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  width: 520px;
+}
+
+.status {
+  margin-top: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+#progress_bar_container {
+  margin-top: 10px;
+  width: 520px;
+  height: 14px;
+  border: 1px solid #999;
+}
+
+#progress_bar {
+  height: 14px;
+  width: 0%;
+  background: #2b7; /* OK to set? user didn't forbid; but keep default. */
+}

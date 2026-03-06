@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+/*******************************************************************************
+**	Title:				lxi_page_layout.css
+** Description:		These are CSS rules for drawing the LXI header and site
+**							navigation buttons.
+**
+** Copyright (c) AMETEK Programmable Power, 2013
+********************************************************************************/
+
+/* A default font family for the page */
+body {
+	font-family: Arial;
+}
+
+#header div {
+	/* This creates the gray sidebar */
+	border-style: solid;
+	border-left-width: 20px;
+	border-right-width: 5px;
+	border-color: #999;
+
+	/* Set the width */
+	width: 740px;
+}
+
+/* The main and variable section of the page */
+#main_content {
+	/* create the gray sidebar */
+	border-style: solid;
+	border-left-width: 20px;
+	border-right-width: 5px;
+	border-color: #999;
+
+	/* set the width */
+	width: 740px;
+}
+
+/******************/
+/* Product ID Bar */
+/******************/
+#product_id_bar {
+	position: relative;
+	height: 70px;
+	background-color: #000;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+}
+
+/* The product text */
+#product_id_text {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	color: #fff;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+/* Ametek logo image */
+#AMETEK_logo {
+	/* Do this so we can use absolute positioning on the children */
+	position: absolute;
+	top: 3px;
+	right: 10px;
+}
+
+#lxi_logo {
+	position: relative;
+	top: 5px;
+	left: -40px;
+}
+
+/*****************/
+/* Device ID Bar */
+/*****************/
+#device_id_bar {
+	/* Do this so we can use absolute positioning on the children */
+	position: relative;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	height: 25px;
+}
+
+/* Manufacturer information */
+#Ametek_text_identifier {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+/* Specific device information with serial number */
+#device_text_identifier {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
+/***********/
+/* Buttons */
+/***********/
+#button_div {
+	background-color: #000;
+	height: 35px;
+}
+
+/* Make the list elements display horizontally */
+
+#button_list li {
+	display: inline;
+}
+
+/* now position the elements */
+/* the header is a little different than the others */
+#home_button_element {
+	position: relative;
+	left: -40px;
+	top: 10px;
+}
+
+/* Place the other buttons now */
+#ip_configuration_element {
+	position: relative;
+	left: -47px;
+	top: 10px;
+}
+
+#interactive_control_element {
+	position: relative;
+	left: -50px;
+	top: 10px;
+}
+
+#lxi_identification_element {
+	position: relative;
+	left: -54px;
+	top: 10px;
+}
+#update_element {
+	position: relative;
+	left: -56px;
+	top: -9px;
+}
+
+/* These are the non-selected buttons */
+.header_button {
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 18px;
+	color: #FFF;
+	background-color: #000;
+	text-decoration: none;
+	border-style: solid;
+	border-color: #999;
+	border-width: 3px 3px 3px 3px;
+	padding: 10px 10px 9px 10px;
+}
+
+/* This is the selected button */
+.selected_header_button {
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 18px;
+	color: #FFF;
+	background-color: #F00;
+	text-decoration: none;
+	border-style: solid;
+	border-color: #999;
+	border-width: 3px 3px 3px 3px;
+	padding: 10px 10px 9px 10px;
+}
+
+/* Change the color on a mouseover */
+.header_button:hover {
+	background-color: #F00;
+}
+
+/* The footer */
+#footer {
+	position: relative;
+	font-size: 12px;
+	border-style: solid;
+	border-left-width: 20px;
+	border-right-width: 5px;
+	border-color: #999;
+	background-color: #999;
+	color: #000;
+	width: 740px;
+	height: 20px;
+}
+
+#copyright_notice {
+	position: absolute;
+	left: 10px;
+}
+
+#device_copyright {
+	position: absolute;
+	right: 10px;
+}
+
+#lxi_logo {
+	position: relative;
+	left: 10px;
+}

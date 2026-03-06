@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*******************************************************************************
+**	Title:				module_layout.css
+** Description:		These are the CSS rules for drawing module page
+**
+** Copyright (c) AMETEK Programmable Power, 2014
+********************************************************************************/
+#main_content {
+	height:400px;
+	overflow:scroll;
+}
+#module_table {
+	border:1px solid #000000;
+	width:500px;
+}
+
+#module_table th {
+	border:1px solid #000000;
+}
+
+#module_table td {
+	border:1px solid #000000;
+}

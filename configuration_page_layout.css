@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/*******************************************************************************
+** Title:				configuration_page_layout.css
+**	Description:		These are CSS rules specific to the configuration page
+**
+** Copyright (c) AMETEK Programmable Power, 2013
+*******************************************************************************/
+
+/* Layout for the main device information table */
+#configuration_table th {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 5px;
+}
+
+#configuration_table td {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 5px;
+}
+
+#form_data {
+	margin-left: 160px;
+}
+
+#submit_button {
+	margin-left:170px;
+}
+
+/* for displaying error text */
+#illegal_configuration_notice {
+	color : #f00;
+	font-weight: bold;
+}

@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/*******************************************************************************
+** Title:				login_page_layout.css
+**	Description:		These are CSS rules specific to the login page
+**
+** Copyright (c) AMETEK Programmable Power, 2013
+*******************************************************************************/
+
+/* Layout for the main device information table */
+#confirmation_message {
+	font-size: 18px;
+	font-weight: bold;
+}

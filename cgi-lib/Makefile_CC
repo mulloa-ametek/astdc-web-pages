@@ -1,0 +1,29 @@
+TOOLSDIR ?= ~/release/linux-cortexm-1.12.0/tools/arm-2010q1/arm-uclinuxeabi
+CC := $(CROSS_COMPILE)gcc
+LN := $(CC)
+CFLAGS := -Os -mcpu=cortex-m3 -mthumb -I$(INSTALL_ROOT)/A2F/root/usr/include 
+LNFLAGS := -mcpu=cortex-m3 -mthumb -L$(INSTALL_ROOT)/A2F/root/usr/lib
+AR := $(CROSS_COMPILE)ar
+ARFLAGS := -cvq
+
+.PHONY: all clean
+
+all: libcgi.a
+
+# Simple program for testing the code
+test: libcgi.a test.o
+	$(LN) -o $@ $^
+
+test.o: test.c cgi-lib.h
+	$(CC) $(CFLAGS) -c $<
+
+libcgi.a: cgi-lib.o
+	$(AR) $(ARFLAGS) $@ $^
+
+cgi-lib.o: cgi-lib.c cgi-lib.h
+	$(CC) $(CFLAGS) -c $<
+
+clean:
+	@echo Cleaning up `pwd`
+	@if [ -e cgi-lib.o ]; then rm cgi-lib.o; fi
+	@if [ -e libcgi.a ]; then rm libcgi.a; fi

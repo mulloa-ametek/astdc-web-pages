@@ -1,0 +1,14 @@
+#!/bin/sh
+
+########################################################################################################
+# Title:				ip_info
+# Author:			Adam Mocarski
+# Description:		bash script for extracting information from ifonfig
+#						This script takes 2 parameters
+#						The first is the interface to examine
+#						Second is the field to pull out
+#
+#	Copyright (C) AMETEK Programmable Power, 2014
+########################################################################################################
+# Get the interface from ifconfig
+exec ifconfig $1 | sed -n "/$2/s/^.*$2[:[:space:]]*\([[:alnum:]]\{1,4\}\([:.][[:alnum:]]*\)*\).*$/\1/p"

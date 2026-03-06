@@ -1,0 +1,1196 @@
++   eth0 IPv6 dc:86:d8:46:16:67@fe80::de86:d8ff:fe46:1667   _apple-mobdev2._tcp  local
++   eth0 IPv4 dc:86:d8:46:16:67@fe80::de86:d8ff:fe46:1667   _apple-mobdev2._tcp  local
++   eth0 IPv4 ViPR VXI-11                                   _vxi-11._tcp         local
++   eth0 IPv4 ViPR SCPI Raw Socket Connection               _scpi-raw._tcp       local
++   eth0 IPv4 ViPR LXI                                      _lxi._tcp            local
++   eth0 IPv4 Mirtec PTH                                    Microsoft Windows Network local
++   eth0 IPv6 HP LaserJet P2055dn [38CEDB]                  Web Site             local
++   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    Web Site             local
++   eth0 IPv6 HP LaserJet P4015 [1F7781]                    Web Site             local
++   eth0 IPv4 ViPR Web Page                                 Web Site             local
++   eth0 IPv4 GKEETON-LT3 Web-based Configuration           Web Site             local
++   eth0 IPv4 ANNAMORALES-LT Web-based Configuration        Web Site             local
++   eth0 IPv4 CA-SAN-AMREL103 Web-based Configuration       Web Site             local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07001461                  Web Site             local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07149981                  Web Site             local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999057                  Web Site             local
++   eth0 IPv4 hp color LaserJet 5550 [E62421]               Web Site             local
++   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999358                Web Site             local
++   eth0 IPv4 Lexmark X466de                                Web Site             local
++   eth0 IPv4 HP LaserJet P2015 Series (0B80AB)             Web Site             local
++   eth0 IPv4 HP LaserJet P2015 Series (2A9048)             Web Site             local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999099                  Web Site             local
++   eth0 IPv4 Lexmark X466de (2)                            Web Site             local
++   eth0 IPv4 TOSHIBA e-STUDIO455-07008665                  Web Site             local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999069                  Web Site             local
++   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999363                Web Site             local
++   eth0 IPv4 HP LaserJet 5200 [13538B]                     Web Site             local
++   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    Web Site             local
++   eth0 IPv4 MARCOM-MBW                                    Web Site             local
++   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                Web Site             local
++   eth0 IPv4 hp LaserJet 1320 series (A6DE26)              Web Site             local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07021771                  Web Site             local
++   eth0 IPv4 CA-SAN-PCBTEST Web-based Configuration        Web Site             local
++   eth0 IPv4 CA-SAN-AC001 Web-based Configuration          Web Site             local
++   eth0 IPv4 FSTACEY-DT Web-based Configuration            Web Site             local
++   eth0 IPv4 AMANZANO Web-based Configuration              Web Site             local
++   eth0 IPv4 CA-SAN-BT03 Web-based Configuration           Web Site             local
++   eth0 IPv4 JBACALA Web-based Configuration               Web Site             local
++   eth0 IPv4 TOSHIBA e-STUDIO305-06997630                  Web Site             local
++   eth0 IPv4 HP LaserJet 5100 Series (0001E6AD3994)        Web Site             local
++   eth0 IPv4 HP LaserJet P2055dn [38CEDB]                  Web Site             local
++   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    Web Site             local
++   eth0 IPv4 HP LaserJet P4015 [1F7781]                    Web Site             local
++   eth0 IPv4 gdavey-dt                                     _ni-logos._tcp       local
++   eth0 IPv4 DFedyk-lt                                     _ni-logos._tcp       local
++   eth0 IPv4 ca-san-lpdc6                                  _ni-logos._tcp       local
++   eth0 IPv4 DStelung-lt                                   _ni-logos._tcp       local
++   eth0 IPv4 ca-san-Mod-ATE                                _ni-logos._tcp       local
++   eth0 IPv4 DHung-dt                                      _ni-logos._tcp       local
++   eth0 IPv4 CA-SAN-BT03                                   _ni-logos._tcp       local
++   eth0 IPv4 ca-san-hpdc0004                               _ni-logos._tcp       local
+=   eth0 IPv4 ViPR LXI                                      _lxi._tcp            local
+   hostname = [adams_ViPR.local]
+   address = [10.11.24.136]
+   port = [80]
+   txt = ["FirmwareVersion=1.0" "SerialNumber=1234" "Model=ViPR" "Manufacturer=AMETEK" "txtvers=1"]
+=   eth0 IPv6 HP LaserJet P2055dn [38CEDB]                  Web Site             local
+   hostname = [NPI38CEDB.local]
+   address = [10.11.2.71]
+   port = [80]
+   txt = []
+=   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    Web Site             local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [80]
+   txt = []
+=   eth0 IPv6 HP LaserJet P4015 [1F7781]                    Web Site             local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [80]
+   txt = []
+=   eth0 IPv4 ViPR Web Page                                 Web Site             local
+   hostname = [adams_ViPR.local]
+   address = [10.11.24.136]
+   port = [80]
+   txt = ["path=/" "txtvers=1"]
+=   eth0 IPv4 GKEETON-LT3 Web-based Configuration           Web Site             local
+   hostname = [GKeeton-lt3.local]
+   address = [10.11.26.78]
+   port = [3580]
+   txt = ["MAC=D4:BE:D9:04:80:7A" "path=/"]
+=   eth0 IPv4 ANNAMORALES-LT Web-based Configuration        Web Site             local
+   hostname = [AnnaMorales-lt.local]
+   address = [10.11.26.159]
+   port = [3580]
+   txt = ["MAC=D4:BE:D9:04:80:74" "path=/"]
+=   eth0 IPv4 CA-SAN-AMREL103 Web-based Configuration       Web Site             local
+   hostname = [ca-san-amrel103.local]
+   address = [10.11.27.51]
+   port = [3580]
+   txt = ["path=/" "MAC=BC:30:5B:CD:25:C5"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07001461                  Web Site             local
+   hostname = [MFP-07001461.local]
+   address = [10.11.2.43]
+   port = [80]
+   txt = ["path=http://MFP_07001461.local.:80"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07149981                  Web Site             local
+   hostname = [MFP-07149981.local]
+   address = [10.11.2.27]
+   port = [80]
+   txt = ["path=http://MFP_07149981.local.:80"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999057                  Web Site             local
+   hostname = [MFP-06999057.local]
+   address = [10.11.2.46]
+   port = [80]
+   txt = ["path=http://MFP_06999057.local.:80"]
+=   eth0 IPv4 hp color LaserJet 5550 [E62421]               Web Site             local
+   hostname = [NPIE62421.local]
+   address = [10.11.2.28]
+   port = [80]
+   txt = []
+=   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999358                Web Site             local
+   hostname = [MFP-06999358.local]
+   address = [10.11.2.47]
+   port = [80]
+   txt = ["path=http://MFP_06999358.local.:80"]
+=   eth0 IPv4 Lexmark X466de                                Web Site             local
+   hostname = [ET0021B7A492E2.local]
+   address = [10.11.2.55]
+   port = [80]
+   txt = []
+=   eth0 IPv4 HP LaserJet P2015 Series (0B80AB)             Web Site             local
+   hostname = [NPI0B80AB.local]
+   address = [10.11.2.48]
+   port = [80]
+   txt = []
+=   eth0 IPv4 HP LaserJet P2015 Series (2A9048)             Web Site             local
+   hostname = [purchasing-forms.local]
+   address = [10.11.2.36]
+   port = [80]
+   txt = []
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999099                  Web Site             local
+   hostname = [MFP-06999099.local]
+   address = [10.11.2.13]
+   port = [80]
+   txt = ["path=http://MFP_06999099.local.:80"]
+=   eth0 IPv4 Lexmark X466de (2)                            Web Site             local
+   hostname = [ET0021B7ACCF4C.local]
+   address = [10.11.2.67]
+   port = [80]
+   txt = []
+=   eth0 IPv4 TOSHIBA e-STUDIO455-07008665                  Web Site             local
+   hostname = [MFP-07008665.local]
+   address = [10.11.2.30]
+   port = [80]
+   txt = ["path=http://MFP_07008665.local.:80"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999069                  Web Site             local
+   hostname = [MFP-06999069.local]
+   address = [10.11.2.37]
+   port = [80]
+   txt = ["path=http://MFP_06999069.local.:80"]
+=   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999363                Web Site             local
+   hostname = [MFP-06999363.local]
+   address = [10.11.2.12]
+   port = [80]
+   txt = ["path=http://MFP_06999363.local.:80"]
+=   eth0 IPv4 HP LaserJet 5200 [13538B]                     Web Site             local
+   hostname = [NPI13538B.local]
+   address = [10.11.2.40]
+   port = [80]
+   txt = []
+=   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    Web Site             local
+   hostname = [NPI7E83CC.local]
+   address = [10.11.2.61]
+   port = [80]
+   txt = []
+=   eth0 IPv4 MARCOM-MBW                                    Web Site             local
+   hostname = [MARCOM-MBW.local]
+   address = [10.11.1.68]
+   port = [80]
+   txt = ["path=/index.php" "Vendor=WDC" "DeviceModel=WDH2NC" "TXTVersion=1.0"]
+=   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                Web Site             local
+   hostname = [NPI50EE84.local]
+   address = [10.11.2.76]
+   port = [80]
+   txt = []
+=   eth0 IPv4 hp LaserJet 1320 series (A6DE26)              Web Site             local
+   hostname = [NPIA6DE26.local]
+   address = [10.11.2.56]
+   port = [80]
+   txt = []
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07021771                  Web Site             local
+   hostname = [MFP-07021771.local]
+   address = [10.11.2.41]
+   port = [80]
+   txt = ["path=http://MFP_07021771.local.:80"]
+=   eth0 IPv4 CA-SAN-PCBTEST Web-based Configuration        Web Site             local
+   hostname = [ca-san-PCBTest.local]
+   address = [10.11.24.95]
+   port = [3580]
+   txt = ["path=/" "MAC=00:10:5A:08:F8:E3"]
+=   eth0 IPv4 CA-SAN-AC001 Web-based Configuration          Web Site             local
+   hostname = [ca-san-ac001.local]
+   address = [10.11.27.46]
+   port = [3580]
+   txt = ["MAC=00:26:B9:7E:AB:4A" "path=/"]
+=   eth0 IPv4 FSTACEY-DT Web-based Configuration            Web Site             local
+   hostname = [fstacey-dt.local]
+   address = [10.11.26.4]
+   port = [3580]
+   txt = ["MAC=E0:69:95:AB:27:99" "path=/"]
+=   eth0 IPv4 AMANZANO Web-based Configuration              Web Site             local
+   hostname = [AManzano.local]
+   address = [10.11.24.160]
+   port = [3580]
+   txt = ["path=/" "MAC=B8:AC:6F:8B:C3:D0"]
+=   eth0 IPv4 CA-SAN-BT03 Web-based Configuration           Web Site             local
+   hostname = [CA-SAN-BT03.local]
+   address = [10.11.26.35]
+   port = [3580]
+   txt = ["path=/" "MAC=E0:69:95:4F:81:8D"]
+=   eth0 IPv4 JBACALA Web-based Configuration               Web Site             local
+   hostname = [JBacala.local]
+   address = [10.11.25.154]
+   port = [3580]
+   txt = ["MAC=54:BE:F7:09:24:E5" "path=/"]
+=   eth0 IPv4 TOSHIBA e-STUDIO305-06997630                  Web Site             local
+   hostname = [MFP-06997630.local]
+   address = [10.11.2.25]
+   port = [80]
+   txt = ["path=http://MFP_06997630.local.:80"]
+=   eth0 IPv4 HP LaserJet 5100 Series (0001E6AD3994)        Web Site             local
+   hostname = [NPIAD3994.local]
+   address = [10.11.2.11]
+   port = [80]
+   txt = []
+=   eth0 IPv4 HP LaserJet P2055dn [38CEDB]                  Web Site             local
+   hostname = [NPI38CEDB.local]
+   address = [10.11.2.71]
+   port = [80]
+   txt = []
+=   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    Web Site             local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [80]
+   txt = []
+=   eth0 IPv4 HP LaserJet P4015 [1F7781]                    Web Site             local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [80]
+   txt = []
+=   eth0 IPv4 gdavey-dt                                     _ni-logos._tcp       local
+   hostname = [gdavey-dt.local]
+   address = [10.11.24.209]
+   port = [2343]
+   txt = []
++   eth0 IPv4 HP LaserJet 5100 Series (0001E6AD3994)        UNIX Printer         local
++   eth0 IPv4 HP LaserJet 5100 Series (0001E6AD3994)        Internet Printer     local
++   eth0 IPv6 HP LaserJet P4015 [1F7781]                    PDL Printer          local
++   eth0 IPv6 HP LaserJet P2055dn [38CEDB]                  PDL Printer          local
++   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    PDL Printer          local
++   eth0 IPv4 HP LaserJet 5100 Series (0001E6AD3994)        PDL Printer          local
++   eth0 IPv4 HP LaserJet 5200 [13538B]                     PDL Printer          local
++   eth0 IPv4 HP LaserJet P2015 Series (0B80AB)             PDL Printer          local
++   eth0 IPv4 HP LaserJet P2015 Series (2A9048)             PDL Printer          local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999099                  PDL Printer          local
++   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    PDL Printer          local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07149981                  PDL Printer          local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07021771                  PDL Printer          local
++   eth0 IPv4 TOSHIBA e-STUDIO455-07008665                  PDL Printer          local
++   eth0 IPv4 hp color LaserJet 5550 [E62421]               PDL Printer          local
++   eth0 IPv4 TOSHIBA e-STUDIO305-06997630                  PDL Printer          local
++   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999363                PDL Printer          local
++   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                PDL Printer          local
++   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999358                PDL Printer          local
++   eth0 IPv4 Lexmark X466de                                PDL Printer          local
++   eth0 IPv4 Lexmark X466de (2)                            PDL Printer          local
++   eth0 IPv4 hp LaserJet 1320 series (A6DE26)              PDL Printer          local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07001461                  PDL Printer          local
++   eth0 IPv4 HP LaserJet P4015 [1F7781]                    PDL Printer          local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999069                  PDL Printer          local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999057                  PDL Printer          local
++   eth0 IPv4 HP LaserJet P2055dn [38CEDB]                  PDL Printer          local
++   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    PDL Printer          local
+=   eth0 IPv6 HP LaserJet P4015 [1F7781]                    PDL Printer          local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [9100]
+   txt = ["adminurl=http://P05357.local." "priority=40" "product=(HP LaserJet P4015)" "ty=HP LaserJet P4015" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    PDL Printer          local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [9100]
+   txt = ["adminurl=http://NPI7E7ABD.local." "priority=40" "product=(HP LaserJet P4014)" "ty=HP LaserJet P4014" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet P2015 Series (0B80AB)             PDL Printer          local
+   hostname = [NPI0B80AB.local]
+   address = [10.11.2.48]
+   port = [9100]
+   txt = ["TBCP=T" "Binary=T" "Transparent=T" "adminurl=http://NPI0B80AB.local." "priority=40" "product=(HP LaserJet P2015 Series)" "ty=HP LaserJet P2015 Series" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet P2015 Series (2A9048)             PDL Printer          local
+   hostname = [purchasing-forms.local]
+   address = [10.11.2.36]
+   port = [9100]
+   txt = ["TBCP=T" "Binary=T" "Transparent=T" "adminurl=http://purchasing-forms.local." "priority=40" "product=(HP LaserJet P2015 Series)" "ty=HP LaserJet P2015 Series" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999099                  PDL Printer          local
+   hostname = [MFP-06999099.local]
+   address = [10.11.2.13]
+   port = [9100]
+   txt = ["binary=T" "priority=50" "adminurl=http://MFP_06999099.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note="]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07149981                  PDL Printer          local
+   hostname = [MFP-07149981.local]
+   address = [10.11.2.27]
+   port = [9100]
+   txt = ["binary=T" "priority=50" "adminurl=http://MFP_07149981.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note="]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07021771                  PDL Printer          local
+   hostname = [MFP-07021771.local]
+   address = [10.11.2.41]
+   port = [9100]
+   txt = ["binary=T" "priority=50" "adminurl=http://MFP_07021771.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note="]
+=   eth0 IPv4 TOSHIBA e-STUDIO455-07008665                  PDL Printer          local
+   hostname = [MFP-07008665.local]
+   address = [10.11.2.30]
+   port = [9100]
+   txt = ["binary=T" "priority=50" "adminurl=http://MFP_07008665.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO455)" "ty=TOSHIBA" "qtotal=1" "note="]
+=   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999363                PDL Printer          local
+   hostname = [MFP-06999363.local]
+   address = [10.11.2.12]
+   port = [9100]
+   txt = ["binary=T" "priority=50" "adminurl=http://MFP_06999363.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO5520C)" "ty=TOSHIBA" "qtotal=1" "note="]
+=   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                PDL Printer          local
+   hostname = [NPI50EE84.local]
+   address = [10.11.2.76]
+   port = [9100]
+   txt = ["TBCP=T" "Binary=T" "Transparent=T" "note=" "adminurl=http://NPI50EE84.local." "priority=40" "product=(HP LaserJet 400 M401n)" "ty=HP LaserJet 400 M401n" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999358                PDL Printer          local
+   hostname = [MFP-06999358.local]
+   address = [10.11.2.47]
+   port = [9100]
+   txt = ["binary=T" "priority=50" "adminurl=http://MFP_06999358.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO5520C)" "ty=TOSHIBA" "qtotal=1" "note="]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07001461                  PDL Printer          local
+   hostname = [MFP-07001461.local]
+   address = [10.11.2.43]
+   port = [9100]
+   txt = ["binary=T" "priority=50" "adminurl=http://MFP_07001461.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note="]
+=   eth0 IPv4 HP LaserJet P4015 [1F7781]                    PDL Printer          local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [9100]
+   txt = ["adminurl=http://P05357.local." "priority=40" "product=(HP LaserJet P4015)" "ty=HP LaserJet P4015" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999069                  PDL Printer          local
+   hostname = [MFP-06999069.local]
+   address = [10.11.2.37]
+   port = [9100]
+   txt = ["binary=T" "priority=50" "adminurl=http://MFP_06999069.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note="]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999057                  PDL Printer          local
+   hostname = [MFP-06999057.local]
+   address = [10.11.2.46]
+   port = [9100]
+   txt = ["binary=T" "priority=50" "adminurl=http://MFP_06999057.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note="]
+=   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    PDL Printer          local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [9100]
+   txt = ["adminurl=http://NPI7E7ABD.local." "priority=40" "product=(HP LaserJet P4014)" "ty=HP LaserJet P4014" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
++   eth0 IPv4 Lexmark X466de                                UNIX Printer         local
++   eth0 IPv4 Lexmark X466de                                Internet Printer     local
+=   eth0 IPv4 Lexmark X466de                                PDL Printer          local
+   hostname = [ET0021B7A492E2.local]
+   address = [10.11.2.55]
+   port = [9100]
+   txt = ["rp=prt0" "adminurl=http://ET0021B7A492E2.local" "pdl=application/postscript" "note=" "product=(Lexmark X466de)"]
++   eth0 IPv4 Lexmark X466de (2)                            UNIX Printer         local
++   eth0 IPv4 Lexmark X466de (2)                            Internet Printer     local
+=   eth0 IPv4 Lexmark X466de (2)                            PDL Printer          local
+   hostname = [ET0021B7ACCF4C.local]
+   address = [10.11.2.67]
+   port = [9100]
+   txt = ["rp=prt0" "adminurl=http://ET0021B7ACCF4C.local" "pdl=application/postscript" "note=" "product=(Lexmark X466de)"]
+=   eth0 IPv4 Lexmark X466de                                UNIX Printer         local
+   hostname = [ET0021B7A492E2.local]
+   address = [10.11.2.55]
+   port = [515]
+   txt = ["rp=prt0" "adminurl=http://ET0021B7A492E2.local" "pdl=application/postscript" "note=" "product=(Lexmark X466de)"]
+=   eth0 IPv4 Lexmark X466de                                Internet Printer     local
+   hostname = [ET0021B7A492E2.local]
+   address = [10.11.2.55]
+   port = [631]
+   txt = ["rp=prt0" "adminurl=http://ET0021B7A492E2.local" "pdl=application/postscript" "note=" "product=(Lexmark X466de)"]
+=   eth0 IPv4 Lexmark X466de (2)                            UNIX Printer         local
+   hostname = [ET0021B7ACCF4C.local]
+   address = [10.11.2.67]
+   port = [515]
+   txt = ["rp=prt0" "adminurl=http://ET0021B7ACCF4C.local" "pdl=application/postscript" "note=" "product=(Lexmark X466de)"]
+=   eth0 IPv4 Lexmark X466de (2)                            Internet Printer     local
+   hostname = [ET0021B7ACCF4C.local]
+   address = [10.11.2.67]
+   port = [631]
+   txt = ["rp=prt0" "adminurl=http://ET0021B7ACCF4C.local" "pdl=application/postscript" "note=" "product=(Lexmark X466de)"]
++   eth0 IPv4 cimsvr-Ametek [00:0c:29:f2:ea:bd]             Workstation          local
+=   eth0 IPv4 cimsvr-Ametek [00:0c:29:f2:ea:bd]             Workstation          local
+   hostname = [cimsvr-Ametek.local]
+   address = [10.11.1.78]
+   port = [9]
+   txt = ["org.freedesktop.Avahi.cookie=3052144860"]
++   eth0 IPv4 hp color LaserJet 5550 [E62421]               UNIX Printer         local
++   eth0 IPv4 hp color LaserJet 5550 [E62421]               Internet Printer     local
+=   eth0 IPv4 hp color LaserJet 5550 [E62421]               PDL Printer          local
+   hostname = [NPIE62421.local]
+   address = [10.11.2.28]
+   port = [9100]
+   txt = ["Binary=T" "note=San Diego, mezzanine (ithelpdesk@xantrex.com)" "adminurl=http://NPIE62421.local." "priority=30" "product=(hp color LaserJet 5550 )" "ty=hp color LaserJet 5550 " "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 hp color LaserJet 5550 [E62421]               UNIX Printer         local
+   hostname = [NPIE62421.local]
+   address = [10.11.2.28]
+   port = [515]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://NPIE62421.local." "priority=51" "product=(hp color LaserJet 5550 )" "ty=hp color LaserJet 5550 " "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,text/plain" "rp=AUTO" "qtotal=4" "txtvers=1"]
++   eth0 IPv4 hp LaserJet 1320 series (A6DE26)              UNIX Printer         local
+=   eth0 IPv4 hp LaserJet 1320 series (A6DE26)              PDL Printer          local
+   hostname = [NPIA6DE26.local]
+   address = [10.11.2.56]
+   port = [9100]
+   txt = ["adminurl=http://NPIA6DE26.local." "priority=40" "product=(hp LaserJet 1320 series)" "ty=hp LaserJet 1320 series" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 hp LaserJet 1320 series (A6DE26)              UNIX Printer         local
+   hostname = [NPIA6DE26.local]
+   address = [10.11.2.56]
+   port = [515]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://NPIA6DE26.local." "priority=30" "product=(hp LaserJet 1320 series)" "ty=hp LaserJet 1320 series" "pdl=application/postscript" "rp=BINPS" "qtotal=4" "txtvers=1"]
++   eth0 IPv6 cimsvr-Ametek [00:0c:29:f2:ea:bd]             Workstation          local
+=   eth0 IPv6 cimsvr-Ametek [00:0c:29:f2:ea:bd]             Workstation          local
+   hostname = [cimsvr-Ametek.local]
+   address = [fe80::20c:29ff:fef2:eabd]
+   port = [9]
+   txt = ["org.freedesktop.Avahi.cookie=3052144860"]
++   eth0 IPv4 emcraft [00:0c:29:23:83:d8]                   Workstation          local
++   eth0 IPv4 emcraft                                       Remote Disk Management local
+=   eth0 IPv4 emcraft [00:0c:29:23:83:d8]                   Workstation          local
+   hostname = [emcraft.local]
+   address = [10.11.25.29]
+   port = [9]
+   txt = []
+=   eth0 IPv4 emcraft                                       Remote Disk Management local
+   hostname = [emcraft.local]
+   address = [10.11.25.29]
+   port = [22]
+   txt = []
++   eth0 IPv4 HP LaserJet 5200 [13538B]                     UNIX Printer         local
++   eth0 IPv4 HP LaserJet 5200 [13538B]                     Internet Printer     local
+=   eth0 IPv4 HP LaserJet 5200 [13538B]                     PDL Printer          local
+   hostname = [NPI13538B.local]
+   address = [10.11.2.40]
+   port = [9100]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://NPI13538B.local." "priority=30" "product=(HP LaserJet 5200)" "ty=HP LaserJet 5200" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet 5200 [13538B]                     UNIX Printer         local
+   hostname = [NPI13538B.local]
+   address = [10.11.2.40]
+   port = [515]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://NPI13538B.local." "priority=50" "product=(HP LaserJet 5200)" "ty=HP LaserJet 5200" "pdl=application/postscript" "rp=BINPS" "qtotal=4" "txtvers=1"]
++   eth0 IPv6 emcraft                                       Remote Disk Management local
++   eth0 IPv6 emcraft [00:0c:29:23:83:d8]                   Workstation          local
+=   eth0 IPv6 emcraft                                       Remote Disk Management local
+   hostname = [emcraft.local]
+   address = [fe80::20c:29ff:fe23:83d8]
+   port = [22]
+   txt = []
+=   eth0 IPv6 emcraft [00:0c:29:23:83:d8]                   Workstation          local
+   hostname = [emcraft.local]
+   address = [fe80::20c:29ff:fe23:83d8]
+   port = [9]
+   txt = []
+=   eth0 IPv4 hp color LaserJet 5550 [E62421]               Internet Printer     local
+   hostname = [NPIE62421.local]
+   address = [10.11.2.28]
+   port = [631]
+   txt = ["note=San Diego, mezzanine (ithelpdesk@xantrex.com)" "adminurl=http://NPIE62421.local." "priority=60" "product=(hp color LaserJet 5550 )" "ty=hp color LaserJet 5550 " "rp=P05663" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet 5200 [13538B]                     Internet Printer     local
+   hostname = [NPI13538B.local]
+   address = [10.11.2.40]
+   port = [631]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://NPI13538B.local." "priority=60" "product=(HP LaserJet 5200)" "ty=HP LaserJet 5200" "rp=NPI13538B" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
++   eth0 IPv4 ca-san-esg2359                                _ni-logos._tcp       local
+=   eth0 IPv4 ca-san-esg2359                                _ni-logos._tcp       local
+   hostname = [ca-san-esg2359.local]
+   address = [10.11.25.104]
+   port = [2343]
+   txt = []
++   eth0 IPv4 dmyers-dt                                     _ni-logos._tcp       local
+=   eth0 IPv4 dmyers-dt                                     _ni-logos._tcp       local
+   hostname = [dmyers-dt.local]
+   address = [10.11.25.39]
+   port = [2343]
+   txt = []
++   eth0 IPv4 ca-san-esg87340                               _ni-logos._tcp       local
+=   eth0 IPv4 ca-san-esg87340                               _ni-logos._tcp       local
+   hostname = [ca-san-esg87340.local]
+   address = [10.11.27.249]
+   port = [2343]
+   txt = []
++   eth0 IPv4 PVo-dt                                        _ni-logos._tcp       local
++   eth0 IPv4 ca-san-lpdc3                                  _ni-logos._tcp       local
+=   eth0 IPv4 PVo-dt                                        _ni-logos._tcp       local
+   hostname = [PVo-dt.local]
+   address = [10.11.24.222]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 ca-san-lpdc3                                  _ni-logos._tcp       local
+   hostname = [ca-san-lpdc3.local]
+   address = [10.11.25.88]
+   port = [2343]
+   txt = []
++   eth0 IPv4 DDEUEL                                        _ni-logos._tcp       local
++   eth0 IPv4 tesla                                         _ni-logos._tcp       local
+=   eth0 IPv4 DDEUEL                                        _ni-logos._tcp       local
+   hostname = [DDEUEL.local]
+   address = [10.11.27.39]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 tesla                                         _ni-logos._tcp       local
+   hostname = [tesla.local]
+   address = [10.11.26.137]
+   port = [2343]
+   txt = []
++   eth0 IPv4 jhuaxia                                       _ni-logos._tcp       local
++   eth0 IPv6 Time Capsule (Work)                           Microsoft Windows Network local
++   eth0 IPv4 Time Capsule (Work)                           Microsoft Windows Network local
+=   eth0 IPv4 jhuaxia                                       _ni-logos._tcp       local
+   hostname = [jhuaxia.local]
+   address = [10.11.25.226]
+   port = [2343]
+   txt = []
++   eth0 IPv4 ca-san-amrel103                               _ni-logos._tcp       local
++   eth0 IPv4 AManzano                                      _ni-logos._tcp       local
++   eth0 IPv4 DLopez-dt3                                    _ni-logos._tcp       local
++   eth0 IPv4 ca-san-lab0005                                _ni-logos._tcp       local
++   eth0 IPv4 ca-san-lpdc5                                  _ni-logos._tcp       local
++   eth0 IPv6 50-35-10-70.1 AirPort Express                 _sleep-proxy._udp    local
++   eth0 IPv6 50-34-10-70.1 Time Capsule (Work)             _sleep-proxy._udp    local
++   eth0 IPv4 50-35-10-70.1 AirPort Express                 _sleep-proxy._udp    local
++   eth0 IPv4 50-34-10-70.1 Time Capsule (Work)             _sleep-proxy._udp    local
++   eth0 IPv4 CA-SAN-LPDCMS1                                _ni-logos._tcp       local
+=   eth0 IPv4 Mirtec PTH                                    Microsoft Windows Network local
+   hostname = [ca-san-mirtec02.local]
+   address = [10.11.27.47]
+   port = [445]
+   txt = []
++   eth0 IPv4 ca-san-ac001                                  _ni-logos._tcp       local
++   eth0 IPv4 DPham                                         _ni-logos._tcp       local
++   eth0 IPv4 ca-san-lpdc304                                _ni-logos._tcp       local
++   eth0 IPv4 TGordon-dt2                                   _ni-logos._tcp       local
+=   eth0 IPv6 Time Capsule (Work)                           Microsoft Windows Network local
+   hostname = [Time-Capsule-Work.local]
+   address = [169.254.135.248]
+   port = [445]
+   txt = ["netbios=Time-Capsule-Wo"]
+=   eth0 IPv4 Time Capsule (Work)                           Microsoft Windows Network local
+   hostname = [Time-Capsule-Work.local]
+   address = [169.254.135.248]
+   port = [445]
+   txt = ["netbios=Time-Capsule-Wo"]
+=   eth0 IPv4 ca-san-amrel103                               _ni-logos._tcp       local
+   hostname = [ca-san-amrel103.local]
+   address = [10.11.27.51]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 AManzano                                      _ni-logos._tcp       local
+   hostname = [AManzano.local]
+   address = [10.11.24.160]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 DLopez-dt3                                    _ni-logos._tcp       local
+   hostname = [DLopez-dt3.local]
+   address = [10.11.26.34]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 ca-san-lab0005                                _ni-logos._tcp       local
+   hostname = [ca-san-lab0005.local]
+   address = [10.11.26.120]
+   port = [2343]
+   txt = []
++   eth0 IPv4 TNguyen-dt2                                   _ni-logos._tcp       local
+=   eth0 IPv4 ca-san-lpdc5                                  _ni-logos._tcp       local
+   hostname = [ca-san-lpdc5.local]
+   address = [10.11.26.44]
+   port = [2343]
+   txt = []
+=   eth0 IPv6 50-35-10-70.1 AirPort Express                 _sleep-proxy._udp    local
+   hostname = [AirPort-Express.local]
+   address = [169.254.154.37]
+   port = [63844]
+   txt = []
+=   eth0 IPv6 50-34-10-70.1 Time Capsule (Work)             _sleep-proxy._udp    local
+   hostname = [Time-Capsule-Work.local]
+   address = [169.254.135.248]
+   port = [60869]
+   txt = []
+=   eth0 IPv4 50-35-10-70.1 AirPort Express                 _sleep-proxy._udp    local
+   hostname = [AirPort-Express.local]
+   address = [169.254.154.37]
+   port = [63844]
+   txt = []
+=   eth0 IPv4 50-34-10-70.1 Time Capsule (Work)             _sleep-proxy._udp    local
+   hostname = [Time-Capsule-Work.local]
+   address = [169.254.135.248]
+   port = [60869]
+   txt = []
+=   eth0 IPv4 CA-SAN-LPDCMS1                                _ni-logos._tcp       local
+   hostname = [CA-SAN-LPDCMS1.local]
+   address = [10.11.24.109]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 ca-san-ac001                                  _ni-logos._tcp       local
+   hostname = [ca-san-ac001.local]
+   address = [10.11.27.46]
+   port = [2343]
+   txt = []
++   eth0 IPv4 ca-san-lpdc843                                _ni-logos._tcp       local
++   eth0 IPv4 smarquez                                      _ni-logos._tcp       local
++   eth0 IPv4 IRoguel                                       _ni-logos._tcp       local
++   eth0 IPv4 rlu-dt                                        _ni-logos._tcp       local
++   eth0 IPv4 CA-SAN-LPDCLS1                                _ni-logos._tcp       local
++   eth0 IPv4 ca-san-ac9876                                 _ni-logos._tcp       local
++   eth0 IPv4 JBacala                                       _ni-logos._tcp       local
++   eth0 IPv4 fstacey-dt                                    _ni-logos._tcp       local
+=   eth0 IPv4 ViPR SCPI Raw Socket Connection               _scpi-raw._tcp       local
+   hostname = [adams_ViPR.local]
+   address = [10.11.24.136]
+   port = [52000]
+   txt = ["FirmwareVersion=1.0" "SerialNumber=1234" "Model=ViPR" "Manufacturer=AMETEK" "txtvers=1"]
+=   eth0 IPv4 ViPR VXI-11                                   _vxi-11._tcp         local
+   hostname = [adams_ViPR.local]
+   address = [10.11.24.136]
+   port = [52704]
+   txt = ["FirmwareVersion=1.0" "SerialNumber=1234" "Model=ViPR" "Manufacturer=AMETEK" "txtvers=1"]
++   eth0 IPv4 ca-san-lpdc303                                _ni-logos._tcp       local
++   eth0 IPv4 AnnaMorales-lt                                _ni-logos._tcp       local
++   eth0 IPv4 ca-san-gups1                                  _ni-logos._tcp       local
+=   eth0 IPv4 DPham                                         _ni-logos._tcp       local
+   hostname = [DPham.local]
+   address = [10.11.24.53]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 ca-san-lpdc304                                _ni-logos._tcp       local
+   hostname = [ca-san-lpdc304.local]
+   address = [10.11.27.181]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 TGordon-dt2                                   _ni-logos._tcp       local
+   hostname = [TGordon-dt2.local]
+   address = [10.11.25.75]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 TNguyen-dt2                                   _ni-logos._tcp       local
+   hostname = [TNguyen-dt2.local]
+   address = [10.11.26.103]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 ca-san-lpdc843                                _ni-logos._tcp       local
+   hostname = [ca-san-lpdc843.local]
+   address = [10.11.25.109]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 smarquez                                      _ni-logos._tcp       local
+   hostname = [smarquez.local]
+   address = [10.11.24.167]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 IRoguel                                       _ni-logos._tcp       local
+   hostname = [IRoguel.local]
+   address = [10.11.25.251]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 rlu-dt                                        _ni-logos._tcp       local
+   hostname = [rlu-dt.local]
+   address = [10.11.27.146]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 CA-SAN-LPDCLS1                                _ni-logos._tcp       local
+   hostname = [CA-SAN-LPDCLS1.local]
+   address = [10.11.24.73]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 ca-san-ac9876                                 _ni-logos._tcp       local
+   hostname = [ca-san-ac9876.local]
+   address = [10.11.27.106]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 JBacala                                       _ni-logos._tcp       local
+   hostname = [JBacala.local]
+   address = [10.11.25.154]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 fstacey-dt                                    _ni-logos._tcp       local
+   hostname = [fstacey-dt.local]
+   address = [10.11.26.4]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 CA-SAN-BT03                                   _ni-logos._tcp       local
+   hostname = [CA-SAN-BT03.local]
+   address = [10.11.26.35]
+   port = [2343]
+   txt = []
++   eth0 IPv4 TOSHIBA e-STUDIO455-07008665                  UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO455-07008665                  Internet Printer     local
++   eth0 IPv4 TOSHIBA e-STUDIO305-06997630                  UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO305-06997630                  Internet Printer     local
+=   eth0 IPv4 TOSHIBA e-STUDIO305-06997630                  PDL Printer          local
+   hostname = [MFP-06997630.local]
+   address = [10.11.2.25]
+   port = [9100]
+   txt = ["binary=T" "priority=50" "adminurl=http://MFP_06997630.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO305)" "ty=TOSHIBA" "qtotal=1" "note="]
+=   eth0 IPv4 ca-san-lpdc303                                _ni-logos._tcp       local
+   hostname = [ca-san-lpdc303.local]
+   address = [10.11.26.39]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 AnnaMorales-lt                                _ni-logos._tcp       local
+   hostname = [AnnaMorales-lt.local]
+   address = [10.11.26.159]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 ca-san-gups1                                  _ni-logos._tcp       local
+   hostname = [ca-san-gups1.local]
+   address = [10.11.27.43]
+   port = [2343]
+   txt = []
++   eth0 IPv4 HP LaserJet P2015 Series (0B80AB)             UNIX Printer         local
+=   eth0 IPv4 TOSHIBA e-STUDIO455-07008665                  UNIX Printer         local
+   hostname = [MFP-07008665.local]
+   address = [10.11.2.30]
+   port = [515]
+   txt = ["binary=T" "priority=40" "adminurl=http://MFP_07008665.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO455)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO455-07008665                  Internet Printer     local
+   hostname = [MFP-07008665.local]
+   address = [10.11.2.30]
+   port = [631]
+   txt = ["binary=T" "priority=45" "adminurl=http://MFP_07008665.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO455)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO305-06997630                  UNIX Printer         local
+   hostname = [MFP-06997630.local]
+   address = [10.11.2.25]
+   port = [515]
+   txt = ["binary=T" "priority=40" "adminurl=http://MFP_06997630.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO305)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO305-06997630                  Internet Printer     local
+   hostname = [MFP-06997630.local]
+   address = [10.11.2.25]
+   port = [631]
+   txt = ["binary=T" "priority=45" "adminurl=http://MFP_06997630.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO305)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 HP LaserJet P2015 Series (0B80AB)             UNIX Printer         local
+   hostname = [NPI0B80AB.local]
+   address = [10.11.2.48]
+   port = [515]
+   txt = ["TBCP=T" "Binary=T" "Transparent=T" "adminurl=http://NPI0B80AB.local." "priority=50" "product=(HP LaserJet P2015 Series)" "ty=HP LaserJet P2015 Series" "rp=RAW" "qtotal=1" "txtvers=1"]
++   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999358                UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999358                Internet Printer     local
++   eth0 IPv6 HP LaserJet P4015 [1F7781]                    UNIX Printer         local
++   eth0 IPv6 HP LaserJet P4015 [1F7781]                    Internet Printer     local
++   eth0 IPv6 HP LaserJet P4015 [1F7781]                    FTP File Transfer    local
++   eth0 IPv6 HP LaserJet P4015 [1F7781]                    Telnet Remote Terminal local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07149981                  UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07149981                  Internet Printer     local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07001461                  UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07001461                  Internet Printer     local
++   eth0 IPv6 HP LaserJet P2055dn [38CEDB]                  UNIX Printer         local
++   eth0 IPv6 HP LaserJet P2055dn [38CEDB]                  Telnet Remote Terminal local
+=   eth0 IPv6 HP LaserJet P2055dn [38CEDB]                  PDL Printer          local
+   hostname = [NPI38CEDB.local]
+   address = [10.11.2.71]
+   port = [9100]
+   txt = ["adminurl=http://NPI38CEDB.local." "priority=40" "product=(HP LaserJet P2055dn)" "ty=HP LaserJet P2055dn" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
++   eth0 IPv4 HP LaserJet P2015 Series (2A9048)             UNIX Printer         local
++   eth0 IPv4 HP LaserJet P4015 [1F7781]                    UNIX Printer         local
++   eth0 IPv4 HP LaserJet P4015 [1F7781]                    Internet Printer     local
++   eth0 IPv4 HP LaserJet P4015 [1F7781]                    FTP File Transfer    local
++   eth0 IPv4 HP LaserJet P4015 [1F7781]                    Telnet Remote Terminal local
++   eth0 IPv4 GKeeton-lt3                                   _ni-logos._tcp       local
++   eth0 IPv4 ca-san-ac104                                  _ni-logos._tcp       local
++   eth0 IPv4 HP LaserJet P2055dn [38CEDB]                  UNIX Printer         local
++   eth0 IPv4 HP LaserJet P2055dn [38CEDB]                  Telnet Remote Terminal local
+=   eth0 IPv4 HP LaserJet P2055dn [38CEDB]                  PDL Printer          local
+   hostname = [NPI38CEDB.local]
+   address = [10.11.2.71]
+   port = [9100]
+   txt = ["adminurl=http://NPI38CEDB.local." "priority=40" "product=(HP LaserJet P2055dn)" "ty=HP LaserJet P2055dn" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 ca-san-hpdc0004                               _ni-logos._tcp       local
+   hostname = [ca-san-hpdc0004.local]
+   address = [10.11.27.23]
+   port = [2343]
+   txt = []
++   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    UNIX Printer         local
++   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    Internet Printer     local
++   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    FTP File Transfer    local
++   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    Telnet Remote Terminal local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999069                  UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999069                  Internet Printer     local
+=   eth0 IPv4 DHung-dt                                      _ni-logos._tcp       local
+   hostname = [DHung-dt.local]
+   address = [10.11.24.225]
+   port = [2343]
+   txt = []
++   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    UNIX Printer         local
++   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    Internet Printer     local
++   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    FTP File Transfer    local
++   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    Telnet Remote Terminal local
+=   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    PDL Printer          local
+   hostname = [NPI7E83CC.local]
+   address = [10.11.2.61]
+   port = [9100]
+   txt = ["adminurl=http://NPI7E83CC.local." "priority=40" "product=(HP LaserJet P3005)" "ty=HP LaserJet P3005" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
++   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    UNIX Printer         local
++   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    Internet Printer     local
++   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    FTP File Transfer    local
++   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    Telnet Remote Terminal local
+=   eth0 IPv4 ca-san-lpdc6                                  _ni-logos._tcp       local
+   hostname = [ca-san-lpdc6.local]
+   address = [10.11.24.130]
+   port = [2343]
+   txt = []
++   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999363                UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999363                Internet Printer     local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07021771                  UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO555-07021771                  Internet Printer     local
++   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                Web Site             local
++   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                Internet Printer     local
++   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                PDL Printer          local
++   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999099                  UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999099                  Internet Printer     local
++   eth0 IPv4 dareynolds-lt                                 _ni-logos._tcp       local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999057                  UNIX Printer         local
++   eth0 IPv4 TOSHIBA e-STUDIO555-06999057                  Internet Printer     local
+=   eth0 IPv4 ca-san-Mod-ATE                                _ni-logos._tcp       local
+   hostname = [ca-san-Mod-ATE.local]
+   address = [10.11.27.141]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 DStelung-lt                                   _ni-logos._tcp       local
+   hostname = [DStelung-lt.local]
+   address = [10.11.26.153]
+   port = [2343]
+   txt = []
++   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                Internet Printer     local
++   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                UNIX Printer         local
+=   eth0 IPv4 DFedyk-lt                                     _ni-logos._tcp       local
+   hostname = [DFedyk-lt.local]
+   address = [10.11.25.64]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999358                UNIX Printer         local
+   hostname = [MFP-06999358.local]
+   address = [10.11.2.47]
+   port = [515]
+   txt = ["binary=T" "priority=40" "adminurl=http://MFP_06999358.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO5520C)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999358                Internet Printer     local
+   hostname = [MFP-06999358.local]
+   address = [10.11.2.47]
+   port = [631]
+   txt = ["binary=T" "priority=45" "adminurl=http://MFP_06999358.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO5520C)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv6 HP LaserJet P4015 [1F7781]                    UNIX Printer         local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [515]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://P05357.local." "priority=30" "product=(HP LaserJet P4015)" "ty=HP LaserJet P4015" "pdl=application/postscript" "rp=BINPS" "qtotal=4" "txtvers=1"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07149981                  UNIX Printer         local
+   hostname = [MFP-07149981.local]
+   address = [10.11.2.27]
+   port = [515]
+   txt = ["binary=T" "priority=40" "adminurl=http://MFP_07149981.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07149981                  Internet Printer     local
+   hostname = [MFP-07149981.local]
+   address = [10.11.2.27]
+   port = [631]
+   txt = ["binary=T" "priority=45" "adminurl=http://MFP_07149981.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07001461                  UNIX Printer         local
+   hostname = [MFP-07001461.local]
+   address = [10.11.2.43]
+   port = [515]
+   txt = ["binary=T" "priority=40" "adminurl=http://MFP_07001461.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07001461                  Internet Printer     local
+   hostname = [MFP-07001461.local]
+   address = [10.11.2.43]
+   port = [631]
+   txt = ["binary=T" "priority=45" "adminurl=http://MFP_07001461.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv6 HP LaserJet P2055dn [38CEDB]                  UNIX Printer         local
+   hostname = [NPI38CEDB.local]
+   address = [10.11.2.71]
+   port = [515]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://NPI38CEDB.local." "priority=30" "product=(HP LaserJet P2055dn)" "ty=HP LaserJet P2055dn" "pdl=application/postscript" "rp=BINPS" "qtotal=4" "txtvers=1"]
+=   eth0 IPv6 HP LaserJet P2055dn [38CEDB]                  Telnet Remote Terminal local
+   hostname = [NPI38CEDB.local]
+   address = [10.11.2.71]
+   port = [23]
+   txt = []
+=   eth0 IPv4 HP LaserJet P2015 Series (2A9048)             UNIX Printer         local
+   hostname = [purchasing-forms.local]
+   address = [10.11.2.36]
+   port = [515]
+   txt = ["TBCP=T" "Binary=T" "Transparent=T" "adminurl=http://purchasing-forms.local." "priority=50" "product=(HP LaserJet P2015 Series)" "ty=HP LaserJet P2015 Series" "rp=RAW" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet P4015 [1F7781]                    UNIX Printer         local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [515]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://P05357.local." "priority=30" "product=(HP LaserJet P4015)" "ty=HP LaserJet P4015" "pdl=application/postscript" "rp=BINPS" "qtotal=4" "txtvers=1"]
+=   eth0 IPv4 GKeeton-lt3                                   _ni-logos._tcp       local
+   hostname = [GKeeton-lt3.local]
+   address = [10.11.26.78]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 ca-san-ac104                                  _ni-logos._tcp       local
+   hostname = [ca-san-ac104.local]
+   address = [10.11.27.183]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 HP LaserJet P2055dn [38CEDB]                  UNIX Printer         local
+   hostname = [NPI38CEDB.local]
+   address = [10.11.2.71]
+   port = [515]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://NPI38CEDB.local." "priority=30" "product=(HP LaserJet P2055dn)" "ty=HP LaserJet P2055dn" "pdl=application/postscript" "rp=BINPS" "qtotal=4" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet P2055dn [38CEDB]                  Telnet Remote Terminal local
+   hostname = [NPI38CEDB.local]
+   address = [10.11.2.71]
+   port = [23]
+   txt = []
+=   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    UNIX Printer         local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [515]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://NPI7E7ABD.local." "priority=30" "product=(HP LaserJet P4014)" "ty=HP LaserJet P4014" "pdl=application/postscript" "rp=BINPS" "qtotal=4" "txtvers=1"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999069                  UNIX Printer         local
+   hostname = [MFP-06999069.local]
+   address = [10.11.2.37]
+   port = [515]
+   txt = ["binary=T" "priority=40" "adminurl=http://MFP_06999069.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999069                  Internet Printer     local
+   hostname = [MFP-06999069.local]
+   address = [10.11.2.37]
+   port = [631]
+   txt = ["binary=T" "priority=45" "adminurl=http://MFP_06999069.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    UNIX Printer         local
+   hostname = [NPI7E83CC.local]
+   address = [10.11.2.61]
+   port = [515]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://NPI7E83CC.local." "priority=30" "product=(HP LaserJet P3005)" "ty=HP LaserJet P3005" "pdl=application/postscript" "rp=BINPS" "qtotal=4" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    UNIX Printer         local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [515]
+   txt = ["Binary=T" "Transparent=T" "adminurl=http://NPI7E7ABD.local." "priority=30" "product=(HP LaserJet P4014)" "ty=HP LaserJet P4014" "pdl=application/postscript" "rp=BINPS" "qtotal=4" "txtvers=1"]
+=   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999363                UNIX Printer         local
+   hostname = [MFP-06999363.local]
+   address = [10.11.2.12]
+   port = [515]
+   txt = ["binary=T" "priority=40" "adminurl=http://MFP_06999363.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO5520C)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
++   eth0 IPv4 BAZAMI-LT                                     _scan-target._tcp    local
+=   eth0 IPv4 TOSHIBA e-STUDIO5520C-06999363                Internet Printer     local
+   hostname = [MFP-06999363.local]
+   address = [10.11.2.12]
+   port = [631]
+   txt = ["binary=T" "priority=45" "adminurl=http://MFP_06999363.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO5520C)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07021771                  UNIX Printer         local
+   hostname = [MFP-07021771.local]
+   address = [10.11.2.41]
+   port = [515]
+   txt = ["binary=T" "priority=40" "adminurl=http://MFP_07021771.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-07021771                  Internet Printer     local
+   hostname = [MFP-07021771.local]
+   address = [10.11.2.41]
+   port = [631]
+   txt = ["binary=T" "priority=45" "adminurl=http://MFP_07021771.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                Web Site             local
+   hostname = [NPI50EE84.local]
+   address = [fe80::7646:a0ff:fe50:ee84]
+   port = [80]
+   txt = []
+=   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                Internet Printer     local
+   hostname = [NPI50EE84.local]
+   address = [fe80::7646:a0ff:fe50:ee84]
+   port = [631]
+   txt = ["mac=74:46:a0:50:ee:84" "usb_MDL=HP LaserJet 400 M401n" "usb_MFG=Hewlett-Packard" "UUID=564e4733-4630-3535-3534-7446a050ee84" "Fax=F" "Scan=F" "Duplex=F" "Color=F" "note=" "adminurl=http://NPI50EE84.local." "priority=10" "product=(HP LaserJet 400 M401n)" "ty=HP LaserJet 400 M401n" "URF=V1.1,CP99,W8,OB10,PQ3-4-5,IS1-2-4,MT1-2-3-5,RS600-1200" "rp=ipp/print" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/pdf,image/urf" "qtotal=1" "txtvers=1"]
+=   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                PDL Printer          local
+   hostname = [NPI50EE84.local]
+   address = [fe80::7646:a0ff:fe50:ee84]
+   port = [9100]
+   txt = ["TBCP=T" "Binary=T" "Transparent=T" "note=" "adminurl=http://NPI50EE84.local." "priority=40" "product=(HP LaserJet 400 M401n)" "ty=HP LaserJet 400 M401n" "qtotal=1" "txtvers=1"]
+=   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                UNIX Printer         local
+   hostname = [NPI50EE84.local]
+   address = [fe80::7646:a0ff:fe50:ee84]
+   port = [515]
+   txt = ["TBCP=T" "Binary=T" "Transparent=T" "note=" "adminurl=http://NPI50EE84.local." "priority=50" "product=(HP LaserJet 400 M401n)" "ty=HP LaserJet 400 M401n" "rp=RAW" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999099                  UNIX Printer         local
+   hostname = [MFP-06999099.local]
+   address = [10.11.2.13]
+   port = [515]
+   txt = ["binary=T" "priority=40" "adminurl=http://MFP_06999099.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999099                  Internet Printer     local
+   hostname = [MFP-06999099.local]
+   address = [10.11.2.13]
+   port = [631]
+   txt = ["binary=T" "priority=45" "adminurl=http://MFP_06999099.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 dareynolds-lt                                 _ni-logos._tcp       local
+   hostname = [dareynolds-lt.local]
+   address = [10.11.26.231]
+   port = [2343]
+   txt = []
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999057                  UNIX Printer         local
+   hostname = [MFP-06999057.local]
+   address = [10.11.2.46]
+   port = [515]
+   txt = ["binary=T" "priority=40" "adminurl=http://MFP_06999057.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 TOSHIBA e-STUDIO555-06999057                  Internet Printer     local
+   hostname = [MFP-06999057.local]
+   address = [10.11.2.46]
+   port = [631]
+   txt = ["binary=T" "priority=45" "adminurl=http://MFP_06999057.local.:80" "pdl=text/plain,application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/octet-stream" "product=(TOSHIBA e-STUDIO555)" "ty=TOSHIBA" "qtotal=1" "note=" "rp=Print"]
+=   eth0 IPv4 BAZAMI-LT                                     _scan-target._tcp    local
+   hostname = [bazami-lt.local]
+   address = [10.11.25.14]
+   port = [9322]
+   txt = ["A00=Kodak AiO Home Center" "AppCnt=01" "EKCap=01" "product=Host ScanTo Service" "mfg=Eastman Kodak Company" "vid=040a" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    Internet Printer     local
+   hostname = [NPI7E83CC.local]
+   address = [10.11.2.61]
+   port = [631]
+   txt = ["adminurl=http://NPI7E83CC.local." "priority=60" "product=(HP LaserJet P3005)" "ty=HP LaserJet P3005" "rp=NPI7E83CC" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    FTP File Transfer    local
+   hostname = [NPI7E83CC.local]
+   address = [10.11.2.61]
+   port = [21]
+   txt = []
+=   eth0 IPv4 HP LaserJet P3005 [7E83CC]                    Telnet Remote Terminal local
+   hostname = [NPI7E83CC.local]
+   address = [10.11.2.61]
+   port = [23]
+   txt = []
++   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                _http-alt._tcp       local
++   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                _print-caps._tcp     local
+=   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                _http-alt._tcp       local
+   hostname = [NPI50EE84.local]
+   address = [fe80::7646:a0ff:fe50:ee84]
+   port = [8080]
+   txt = []
+=   eth0 IPv6 HP LaserJet 400 M401n (50EE84)                _print-caps._tcp     local
+   hostname = [NPI50EE84.local]
+   address = [fe80::7646:a0ff:fe50:ee84]
+   port = [8080]
+   txt = []
++   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                _http-alt._tcp       local
++   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                _print-caps._tcp     local
+=   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                Internet Printer     local
+   hostname = [NPI50EE84.local]
+   address = [10.11.2.76]
+   port = [631]
+   txt = ["mac=74:46:a0:50:ee:84" "usb_MDL=HP LaserJet 400 M401n" "usb_MFG=Hewlett-Packard" "UUID=564e4733-4630-3535-3534-7446a050ee84" "Fax=F" "Scan=F" "Duplex=F" "Color=F" "note=" "adminurl=http://NPI50EE84.local." "priority=10" "product=(HP LaserJet 400 M401n)" "ty=HP LaserJet 400 M401n" "URF=V1.1,CP99,W8,OB10,PQ3-4-5,IS1-2-4,MT1-2-3-5,RS600-1200" "rp=ipp/print" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL,application/pdf,image/urf" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                UNIX Printer         local
+   hostname = [NPI50EE84.local]
+   address = [10.11.2.76]
+   port = [515]
+   txt = ["TBCP=T" "Binary=T" "Transparent=T" "note=" "adminurl=http://NPI50EE84.local." "priority=50" "product=(HP LaserJet 400 M401n)" "ty=HP LaserJet 400 M401n" "rp=RAW" "qtotal=1" "txtvers=1"]
++   eth0 IPv6 Time Capsule (Work)                           Apple AirPort        local
++   eth0 IPv6 Time Capsule (Work)                           Apple File Sharing   local
++   eth0 IPv6 Time Capsule (Work)                           Apple TimeMachine    local
++   eth0 IPv4 MARCOM-MBW                                    Apple File Sharing   local
++   eth0 IPv4 MARCOM-MBW-Backup                             Apple TimeMachine    local
++   eth0 IPv4 Time Capsule (Work)                           Apple AirPort        local
++   eth0 IPv4 Time Capsule (Work)                           Apple File Sharing   local
++   eth0 IPv4 Time Capsule (Work)                           Apple TimeMachine    local
++   eth0 IPv4 TESLA                                         _nvstream._tcp       local
+=   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                _http-alt._tcp       local
+   hostname = [NPI50EE84.local]
+   address = [10.11.2.76]
+   port = [8080]
+   txt = []
+=   eth0 IPv4 HP LaserJet 400 M401n (50EE84)                _print-caps._tcp     local
+   hostname = [NPI50EE84.local]
+   address = [10.11.2.76]
+   port = [8080]
+   txt = []
+=   eth0 IPv6 Time Capsule (Work)                           Apple AirPort        local
+   hostname = [Time-Capsule-Work.local]
+   address = [169.254.135.248]
+   port = [5009]
+   txt = ["waMA=20-C9-D0-0F-A1-33,raMA=20-C9-D0-18-6F-15,raM2=20-C9-D0-18-6F-16,raSt=3,raNA=0,syFl=0xA0C,syAP=116,syVs=7.6.4,srcv=76400.10,bjSd=52"]
+=   eth0 IPv6 Time Capsule (Work)                           Apple File Sharing   local
+   hostname = [Time-Capsule-Work.local]
+   address = [169.254.135.248]
+   port = [548]
+   txt = []
+=   eth0 IPv6 Time Capsule (Work)                           Apple TimeMachine    local
+   hostname = [Time-Capsule-Work.local]
+   address = [169.254.135.248]
+   port = [9]
+   txt = ["dk2=adVF=0x1093,adVN=Time Capsule,adVU=29ff26a2-d569-5d37-b0e4-f3ecfc45a4e2" "sys=waMA=20:C9:D0:0F:A1:33,adVF=0x1010"]
+=   eth0 IPv4 MARCOM-MBW                                    Apple File Sharing   local
+   hostname = [MARCOM-MBW.local]
+   address = [10.11.1.68]
+   port = [548]
+   txt = ["Vendor=WDC" "DeviceModel=WDH2NC" "TXTVersion=1.0"]
+=   eth0 IPv4 MARCOM-MBW-Backup                             Apple TimeMachine    local
+   hostname = [MARCOM-MBW.local]
+   address = [10.11.1.68]
+   port = [9]
+   txt = ["dk0=adVF=0x83,adVN=WD_Backup" "sys=waMA=00:90:a9:70:6e:b8"]
+=   eth0 IPv4 Time Capsule (Work)                           Apple AirPort        local
+   hostname = [Time-Capsule-Work.local]
+   address = [169.254.135.248]
+   port = [5009]
+   txt = ["waMA=20-C9-D0-0F-A1-33,raMA=20-C9-D0-18-6F-15,raM2=20-C9-D0-18-6F-16,raSt=3,raNA=0,syFl=0xA0C,syAP=116,syVs=7.6.4,srcv=76400.10,bjSd=52"]
+=   eth0 IPv4 Time Capsule (Work)                           Apple File Sharing   local
+   hostname = [Time-Capsule-Work.local]
+   address = [169.254.135.248]
+   port = [548]
+   txt = []
+=   eth0 IPv4 Time Capsule (Work)                           Apple TimeMachine    local
+   hostname = [Time-Capsule-Work.local]
+   address = [169.254.135.248]
+   port = [9]
+   txt = ["dk2=adVF=0x1093,adVN=Time Capsule,adVU=29ff26a2-d569-5d37-b0e4-f3ecfc45a4e2" "sys=waMA=20:C9:D0:0F:A1:33,adVF=0x1010"]
+=   eth0 IPv4 TESLA                                         _nvstream._tcp       local
+   hostname = [tesla.local]
+   address = [10.11.26.137]
+   port = [47989]
+   txt = ["SERVICE_UNIQUEID=7ad7edb8-3ab3-4257-94a0-6073d8b075a9" "SERVICE_GPUTYPE=NVIDIA GPU" "SERVICE_NUMOFAPPS=0" "SERVICE_STATE=1"]
++   eth0 IPv4 AirPort Express                               Apple AirPort        local
++   eth0 IPv6 AirPort Express                               Apple AirPort        local
+=   eth0 IPv4 AirPort Express                               Apple AirPort        local
+   hostname = [AirPort-Express.local]
+   address = [169.254.154.37]
+   port = [5009]
+   txt = ["waMA=40-3C-FC-06-9E-26,raMA=40-3C-FC-06-9E-27,raNm=.,raCh=6,raSt=0,raNA=0,syDs=Apple Base Station V7.6.3,syFl=0x8A0C,syAP=107,syVs=7.6.3,srcv=76300.7,bjSd=9"]
+=   eth0 IPv6 AirPort Express                               Apple AirPort        local
+   hostname = [AirPort-Express.local]
+   address = [169.254.154.37]
+   port = [5009]
+   txt = ["waMA=40-3C-FC-06-9E-26,raMA=40-3C-FC-06-9E-27,raNm=.,raCh=6,raSt=0,raNA=0,syDs=Apple Base Station V7.6.3,syFl=0x8A0C,syAP=107,syVs=7.6.3,srcv=76300.7,bjSd=9"]
+=   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    Internet Printer     local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [631]
+   txt = ["adminurl=http://NPI7E7ABD.local." "priority=60" "product=(HP LaserJet P4014)" "ty=HP LaserJet P4014" "rp=NPI7E7ABD" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    FTP File Transfer    local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [21]
+   txt = []
+=   eth0 IPv6 HP LaserJet P4014 [7E7ABD]                    Telnet Remote Terminal local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [23]
+   txt = []
+=   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    Internet Printer     local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [631]
+   txt = ["adminurl=http://NPI7E7ABD.local." "priority=60" "product=(HP LaserJet P4014)" "ty=HP LaserJet P4014" "rp=NPI7E7ABD" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    FTP File Transfer    local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [21]
+   txt = []
+=   eth0 IPv4 HP LaserJet P4014 [7E7ABD]                    Telnet Remote Terminal local
+   hostname = [NPI7E7ABD.local]
+   address = [10.11.2.63]
+   port = [23]
+   txt = []
+=   eth0 IPv6 HP LaserJet P4015 [1F7781]                    Internet Printer     local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [631]
+   txt = ["adminurl=http://P05357.local." "priority=60" "product=(HP LaserJet P4015)" "ty=HP LaserJet P4015" "rp=P05357" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv6 HP LaserJet P4015 [1F7781]                    FTP File Transfer    local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [21]
+   txt = []
+=   eth0 IPv6 HP LaserJet P4015 [1F7781]                    Telnet Remote Terminal local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [23]
+   txt = []
+=   eth0 IPv4 HP LaserJet P4015 [1F7781]                    Internet Printer     local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [631]
+   txt = ["adminurl=http://P05357.local." "priority=60" "product=(HP LaserJet P4015)" "ty=HP LaserJet P4015" "rp=P05357" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 HP LaserJet P4015 [1F7781]                    FTP File Transfer    local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [21]
+   txt = []
+=   eth0 IPv4 HP LaserJet P4015 [1F7781]                    Telnet Remote Terminal local
+   hostname = [P05357.local]
+   address = [10.11.2.44]
+   port = [23]
+   txt = []
+=   eth0 IPv4 HP LaserJet 5100 Series (0001E6AD3994)        UNIX Printer         local
+   hostname = [NPIAD3994.local]
+   address = [10.11.2.11]
+   port = [515]
+   txt = ["Copies=T" "adminurl=http://NPIAD3994.local.:80" "priority=52" "product=(HP LaserJet 5100 Series)" "ty=HP LaserJet 5100 Series" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL" "rp=RAW"]
+=   eth0 IPv4 HP LaserJet 5100 Series (0001E6AD3994)        PDL Printer          local
+   hostname = [NPIAD3994.local]
+   address = [10.11.2.11]
+   port = [9100]
+   txt = ["Copies=T" "adminurl=http://NPIAD3994.local.:80" "priority=40" "product=(HP LaserJet 5100 Series)" "ty=HP LaserJet 5100 Series" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL"]
+=   eth0 IPv4 HP LaserJet 5100 Series (0001E6AD3994)        Internet Printer     local
+   hostname = [NPIAD3994.local]
+   address = [10.11.2.11]
+   port = [631]
+   txt = ["Copies=T" "adminurl=http://NPIAD3994.local.:80" "priority=60" "product=(HP LaserJet 5100 Series)" "ty=HP LaserJet 5100 Series" "rp=NPIAD3994" "pdl=application/postscript,application/vnd.hp-PCL,application/vnd.hp-PCLXL"]

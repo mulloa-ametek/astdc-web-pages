@@ -1,0 +1,94 @@
+#!/bin/sh
+########################################################################
+# Title:				identification
+# Author:			Adam Mocarski
+# Description:		Script for generating the lxi identification document
+#
+# Coppyright (C) AMETEK Programmable Power, 2014
+########################################################################
+# cgi header
+printf "Content-Type: text/xml\r\n\r\n";
+
+# print the xml header
+printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+
+# Are we being asked to print a stylesheet?
+if [ $# -ge 1 ]
+then
+	printf "<?xml-stylesheet type=\"text/xsl\" href=\"%s\"?>\n" $1
+fi
+
+# Compute out some of the necessary variables
+USER_CONFIG_FILE='/var/usrconfig.ini' # User configuration file
+IDN_INFO_FILE='/var/ctrlidn.txt'			# Lists *IDN? information
+addr=`./ip_info eth0 "inet addr"`
+mask=`./ip_info eth0 Mask`
+mac=`./ip_info eth0 HWaddr`
+hostname=`sed -n "/HostName/s/^HostName=\(.*\)$/\1/p" $USER_CONFIG_FILE`
+gateway=`sed -n "/ipGateway/s/^ipGateway=\(.*\)$/\1/p" $USER_CONFIG_FILE`
+manufacturer=`sed -n "/Company/s/^Company=\(.*\)$/\1/p" $USER_CONFIG_FILE`
+serial_number=`sed -n "/SerialNumber/s/^SerialNumber=\(.*\)$/\1/p" $USER_CONFIG_FILE`
+manufacturer_description=`sed -n "/MDesc/s/^MDesc=\(.*\)$/\1/p" $USER_CONFIG_FILE`
+firmware_version=`sed -n "s/^\([^,]*,\)\{3\}\([^,]*\),.*$/\2/p" $IDN_INFO_FILE`
+model=`sed -n "s/^[^,]*,\([^\,]*\).*$/\1/p" $IDN_INFO_FILE`
+portAddr=`sed -n "/PortAddr/s/^PortAddr=\(.*\)$/\1/p" $USER_CONFIG_FILE`
+dhcpenabled=`sed -n "/DHCP/s/^DHCP=\(.*\)$/\1/p" $USER_CONFIG_FILE`
+autoipenabled=`sed -n "/AutoIP/s/^AutoIP=\(.*\)$/\1/p" $USER_CONFIG_FILE`
+dhcpen="false"
+autoipen="false"
+
+# might have an empty hostname
+# ip spec states to make hostname the address if
+# no hostname pops up
+if [ -z $hostname ]
+then
+	hostname="$addr"
+fi
+
+if [ "$dhcpenabled" = "Y" ] || [ "$dhcpenabled" = "1" ]; then
+	dhcpen="true"
+else
+	dhcpen="false"
+fi
+
+if [ "$autoipenabled" = "1" ] ; then
+	autoipen="true"
+else
+	autoipen="false"
+fi
+
+# Now the LXIDevice entity
+printf "<LXIDevice xmlns=\"http://www.lxistandard.org/InstrumentIdentification/1.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.lxistandard.org/InstrumentIdentification/1.0 http://%s/lxi/schema\">\n" "$addr"
+printf "\t<Manufacturer>%s</Manufacturer>\n" "$manufacturer"
+printf "\t<Model>%s</Model>\n" "$model"
+printf "\t<SerialNumber>%s</SerialNumber>\n" "$serial_number"
+printf "\t<FirmwareRevision>%s</FirmwareRevision>\n" "$firmware_version"
+printf "\t<ManufacturerDescription>%s</ManufacturerDescription>\n" "$manufacturer_description"
+printf "\t<HomepageURL>http://programmablepower.com</HomepageURL>\n"
+printf "\t<DriverURL>http://www.programmablepower.com/products/ViPR/drivers</DriverURL>\n"
+printf "\t<UserDescription>Lab Power Supply</UserDescription>\n"
+printf "\t<IdentificationURL>http://%s/lxi/identification</IdentificationURL>\n" "$addr"
+printf "\t<Interface xsi:type=\"NetworkInformation\" InterfaceType=\"LXI\" IPType=\"IPv4\" InterfaceName=\"eth0\">\n"
+printf "\t\t<InstrumentAddressString>TCPIP0::%s::inst0::INSTR</InstrumentAddressString>\n" "$addr"
+printf "\t\t<InstrumentAddressString>TCPIP0::%s::%s::SOCKET</InstrumentAddressString>\n" "$addr" "$portAddr"
+printf "\t\t<Hostname>%s%s</Hostname>\n" "$hostname"
+# ".local"
+printf "\t\t<IPAddress>%s</IPAddress>\n" "$addr"
+printf "\t\t<SubnetMask>%s</SubnetMask>\n" "$mask"
+printf "\t\t<MACAddress>%s</MACAddress>\n" "$mac"
+printf "\t\t<Gateway>%s</Gateway>\n" "$gateway"
+printf "\t\t<DHCPEnabled>%s</DHCPEnabled>\n" "$dhcpen"
+printf "\t\t<AutoIPEnabled>%s</AutoIPEnabled>\n" "$autoipen"
+printf "\t</Interface>\n"
+printf "\t<LXIVersion>1.5 LXI Device Specification 2016</LXIVersion>\n"
+printf "</LXIDevice>"
+# Left for future IPv6 implementation
+# 
+# v6_addr=`./ip_info eth0 "inet6 addr"`
+#
+#if [ -n $v6_addr ]; then
+#	for i in $v6_addr
+#	do
+#		printf "\t<Interface xsi:type=\"NetworkInformation\" InterfaceType=\"LXI\" IPType=\"IPv6\" InterfaceName=\"eth0\">\n"
+#	done
+#fi

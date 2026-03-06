@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+/*******************************************************************************
+**	Title:				lxi_page_layout_ie.css
+** Description:		These are CSS rules for drawing the LXI header and site
+**							navigation buttons.
+**
+** Copyright (c) AMETEK Programmable Power, 2014
+********************************************************************************/
+
+/* A default font family for the page */
+body {
+	font-family: Arial;
+}
+
+#header div {
+	/* This creates the gray sidebar */
+	border-style: solid;
+	border-left-width: 20px;
+	border-right-width: 5px;
+	border-color: #999;
+
+	/* Set the width */
+	width: 770px;
+}
+
+/* The main and variable section of the page */
+#main_content {
+	/* create the gray sidebar */
+	border-style: solid;
+	border-left-width: 20px;
+	border-right-width: 5px;
+	border-color: #999;
+
+	/* set the width */
+	width: 770px;
+}
+
+/******************/
+/* Product ID Bar */
+/******************/
+#product_id_bar {
+	position: relative;
+	height: 70px;
+	background-color: #000;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+}
+
+/* The product text */
+#product_id_text {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	color: #fff;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+/* Ametek logo image */
+#AMETEK_logo {
+	/* Do this so we can use absolute positioning on the children */
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
+#lxi_logo {
+	position: relative;
+	top: 5px;
+	left: -40px;
+}
+
+/*****************/
+/* Device ID Bar */
+/*****************/
+#device_id_bar {
+	/* Do this so we can use absolute positioning on the children */
+	position: relative;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	height: 25px;
+}
+
+/* Manufacturer information */
+#Ametek_text_identifier {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+/* Specific device information with serial number */
+#device_text_identifier {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
+/***********/
+/* Buttons */
+/***********/
+/* Button bar container */
+#button_div {
+  background-color: #000;
+  height: 35px;                 /* keep if you really need a fixed bar height */
+  display: flex;                 /* ensure the UL can size to the bar */
+  align-items: flex-end;         /* align tabs to the bottom edge */
+}
+
+/* Make the UL the flex row */
+#button_list {
+  display: flex;                 /* puts all li in a single row */
+  flex-wrap: nowrap;             /* prevent wrapping to next line */
+  align-items: stretch;          /* consistent tab height */
+  gap: 4px;                      /* space between buttons (optional) */
+  margin: 0;                     /* reset default UL spacing */
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;           /* keep labels on one line */
+}
+
+/* Each list item is just a flex item (no need for it to be a flex container) */
+#button_list li {
+  /* display: block;  default is fine; do not use position hacks */
+}
+
+/* The clickable button */
+#button_list a {
+  display: block;                /* makes padding clickable */
+  padding: 7px 20px;
+  font-size: 18px;
+  color: #FFF;
+  background-color: #000;
+  text-decoration: none;
+  border: 3px solid #999;
+  white-space: nowrap;           /* prevent label wrap inside a button */
+}
+
+/* States */
+#button_list a.header_button:hover {
+  background-color: #F00;
+}
+
+#button_list a.selected_header_button {
+  background-color: #F00;
+}
+
+/* These are the non-selected buttons */
+.header_button {
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 18px;
+	color: #FFF;
+	background-color: #000;
+	text-decoration: none;
+	border-style: solid;
+	border-color: #999;
+	border-width: 3px 3px 3px 3px;
+	padding: 7px 20px 7px 20px;
+}
+
+/* This is the selected button */
+.selected_header_button {
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 18px;
+	color: #FFF;
+	background-color: #F00;
+	text-decoration: none;
+	border-style: solid;
+	border-color: #999;
+	border-width: 3px 3px 3px 3px;
+	padding: 7px 20px 7px 20px;
+}
+
+/* Change the color on a mouseover */
+.header_button:hover {
+	background-color: #F00;
+}
+
+/* The footer */
+#footer {
+	position: relative;
+	font-size: 12px;
+	border-style: solid;
+	border-left-width: 20px;
+	border-right-width: 5px;
+	border-color: #999;
+	background-color: #999;
+	color: #000;
+	width: 740px;
+	height: 20px;
+}
+
+#copyright_notice {
+	position: absolute;
+	left: 10px;
+}
+
+#device_copyright {
+	position: absolute;
+	right: 10px;
+}
+
+#lxi_logo {
+	position: relative;
+	left: 1px;
+}

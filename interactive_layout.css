@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/*******************************************************************************
+**	Title:				interactive.css
+** Description:		These are the CSS rules for drawing the interactive page
+**
+** Copyright (c) AMETEK Programmable Power, 2014
+********************************************************************************/
+/* These are messages from the user to the power supply */
+.sent_class {
+	color: #000;
+}
+
+/* These are messages from the power supply to the user */
+.receive_class {
+	color: #00F;
+}
+
+/* These are messages indicating an error */
+.error_class {
+	color: #f00;
+}
+
+#result_text {
+	height: 400px;
+	overflow: scroll;
+}

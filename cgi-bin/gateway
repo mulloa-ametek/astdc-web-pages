@@ -1,0 +1,11 @@
+#!/bin/sh
+
+########################################################################################################
+# Title:				gateway
+# Author:			Adam Mocarski
+# Description:		bash script for extracting gateway information
+#
+#	Copyright (C) AMETEK Programmable Power, 2014
+########################################################################################################
+# Use the ip program to extract out the default gateway from the routing table
+exec ip route | sed -n "/^default via .*$1/s/^default via \([[:xdigit:]:.]*\).*$/\1/p"
