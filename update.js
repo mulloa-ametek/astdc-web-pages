@@ -61,87 +61,105 @@
   }
 
   function uploadFile() {
-      var fileInput = byId("fw_file");
-      var uploadButton = byId("upload_button");
+    var fileInput = byId("fw_file");
+    var uploadButton = byId("upload_button");
+    var progressBar = byId("progress_bar");
+    var progressText = byId("progress_text");
 
-      if (!fileInput || !fileInput.files || fileInput.files.length === 0) {
-          setStatus("Please select a file first.", true);
-          debugLog("warn", "No file selected");
-          return;
-      }
+    if (!fileInput || !fileInput.files || fileInput.files.length === 0) {
+        setStatus("Please select a file first.", true);
+        debugLog("warn", "No file selected");
+        return;
+    }
 
-      var file = fileInput.files[0];
+    var file = fileInput.files[0];
+    var formData = new FormData();
+    formData.append("fw_file", file, file.name);
 
-      var formData = new FormData();
-      // Keep filename explicit (helps some CGI parsers)
-      formData.append("fw_file", file, file.name);
+    uploadButton.disabled = true;
+    setStatus("Uploading...", false);
 
-      uploadButton.disabled = true;
-      setStatus("Uploading...", false);
+    if (progressBar) {
+        progressBar.style.width = "0%";
+    }
+    if (progressText) {
+        progressText.textContent = "0%";
+    }
 
-      debugLog("info", "UploadFile clicked", {
-          name: file.name,
-          size_bytes: file.size,
-          type: file.type || "(empty)",
-          page: window.location.href
-      });
+    debugLog("info", "UploadFile clicked", {
+        name: file.name,
+        size_bytes: file.size,
+        type: file.type || "(empty)",
+        page: window.location.href
+    });
 
-      var url = "/cgi-bin/cgi_update.cgi";
-      var t0 = Date.now();
+    var url = "/cgi-bin/cgi_update.cgi";
+    var t0 = Date.now();
+    var xhr = new XMLHttpRequest();
 
-      fetch(url, {
-          method: "POST",
-          body: formData,
-          cache: "no-store",
-          // credentials: "same-origin" // uncomment if you rely on cookies
-      })
-          .then(function (response) {
-              var dt = Date.now() - t0;
-              debugLog("info", "Fetch response received", {
-                  url: url,
-                  ok: response.ok,
-                  status: response.status,
-                  statusText: response.statusText,
-                  duration_ms: dt
-              });
+    xhr.upload.addEventListener("progress", function (event) {
+        if (!event.lengthComputable) {
+            debugLog("warn", "Upload progress not length-computable");
+            return;
+        }
 
-              // Log headers (useful for CGI debugging)
-              try {
-                  var headersObj = {};
-                  response.headers.forEach(function (v, k) { headersObj[k] = v; });
-                  debugLog("info", "Response headers", headersObj);
-              } catch (e) {
-                  debugLog("warn", "Could not read response headers", String(e));
-              }
+        var percent = Math.round((event.loaded / event.total) * 100);
 
-              return response.text().then(function (text) {
-                  debugLog("info", "Response body (first 800 chars)", truncate(text, 800));
+        if (progressBar) {
+            progressBar.style.width = percent + "%";
+        }
+        if (progressText) {
+            progressText.textContent = percent + "%";
+        }
 
-                  if (!response.ok) {
-                      // Include server body in error message
-                      throw new Error(text || ("HTTP " + response.status));
-                  }
-                  return text;
-              });
-          })
-          .then(function (text) {
-              setStatus(text, false);
-              debugLog("info", "Upload completed successfully");
-          })
-          .catch(function (error) {
-              // Network failures often show as TypeError in fetch
-              debugLog("error", "Upload failed", {
-                  message: error && error.message,
-                  name: error && error.name,
-                  stack: error && error.stack
-              });
-              setStatus("Upload failed: " + (error && error.message ? error.message : String(error)), true);
-          })
-          .finally(function () {
-              uploadButton.disabled = false;
-              debugLog("info", "Upload button re-enabled");
-          });
-  }
+        setStatus(
+            "Uploading... " + percent + "% (" +
+            event.loaded + " / " + event.total + " bytes)",
+            false
+        );
+    });
+
+    xhr.addEventListener("load", function () {
+        var dt = Date.now() - t0;
+
+        debugLog("info", "XHR load", {
+            url: url,
+            status: xhr.status,
+            statusText: xhr.statusText,
+            duration_ms: dt,
+            response: xhr.responseText
+        });
+
+        if (xhr.status >= 200 && xhr.status < 300) {
+            if (progressBar) {
+                progressBar.style.width = "100%";
+            }
+            if (progressText) {
+                progressText.textContent = "100%";
+            }
+            setStatus(xhr.responseText || "Upload completed.", false);
+        } else {
+            setStatus("Upload failed: " + (xhr.responseText || ("HTTP " + xhr.status)), true);
+        }
+
+        uploadButton.disabled = false;
+    });
+
+    xhr.addEventListener("error", function () {
+        debugLog("error", "XHR network error");
+        setStatus("Upload failed: network error", true);
+        uploadButton.disabled = false;
+    });
+
+    xhr.addEventListener("abort", function () {
+        debugLog("warn", "XHR aborted");
+        setStatus("Upload cancelled.", true);
+        uploadButton.disabled = false;
+    });
+
+    xhr.open("POST", url, true);
+    xhr.send(formData);
+}
 
   window.addEventListener("load", function () {
       debugLog("info", "Page loaded", {

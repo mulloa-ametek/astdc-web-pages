@@ -62,10 +62,10 @@
 					<div id="button_div">
             <ul id="button_list">
               <li id="home_button_element"><a id="home_button" class="header_button" href="/cgi-bin/home.cgi">Home</a></li>
-              <li id="login_button_element"><a id="login_button" class="header_button" href="/cgi-bin/login.cgi">Login</a></li>
-              <li id="interactive_control_element"><a id="interactive_control_button" class="header_button" href="/cgi-bin/interactive.cgi">Interactive</a></li>
+              <li id="login_button_element"><a id="login_button" class="header_button" href="/cgi-bin/login.cgi">IP Configuration</a></li>
+              <li id="interactive_control_element"><a id="interactive_control_button" class="header_button" href="/cgi-bin/interactive.cgi">Interactive Control</a></li>
               <li id="lxi_identification_element"><a id="lxi_identification_button" class="header_button" href="/cgi-bin/identification">LXI Identification</a></li>
-              <li id="update_element"><a id="update_button" class="selected_header_button" href="/cgi-bin/upload.cgi">Update</a></li>
+              <li id="update_element"><a id="update_button" class="selected_header_button" href="/cgi-bin/update.cgi">Update</a></li>
             </ul>
           </div>
         </div>
