@@ -90,7 +90,8 @@ static void sanitize_filename(const char *in, char *out, size_t out_sz)
 
     /* copy and replace unsafe chars */
     size_t j = 0;
-    for (size_t i = 0; base[i] && j + 1 < out_sz; i++) {
+	size_t i = 0;
+    for (i = 0; base[i] && j + 1 < out_sz; i++) {
         unsigned char c = (unsigned char)base[i];
         if (isalnum(c) || c == '.' || c == '_' || c == '-' ) {
             out[j++] = (char)c;
